@@ -13,7 +13,7 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:visibility="gone"/>
-    <com.ldt.musicr.ui.widget.viewpager.SmoothScrollerViewPager
+    <com.ldt.fahimshariar.ui.widget.viewpager.SmoothScrollerViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

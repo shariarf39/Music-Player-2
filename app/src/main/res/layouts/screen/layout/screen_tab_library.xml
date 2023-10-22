@@ -8,7 +8,7 @@
     app:layoutDescription="@xml/library_tab_animation"
     android:id="@+id/root"
     tools:progress="0"
-    tools:context="com.ldt.musicr.ui.maintab.library.LibraryTabFragment"
+    tools:context="com.ldt.fahimshariar.ui.maintab.library.LibraryTabFragment"
     android:descendantFocusability="beforeDescendants"
     android:focusableInTouchMode="true"
    >
@@ -61,7 +61,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/status_bar_parent" />
 
-    <com.ldt.musicr.ui.widget.view.MPSearchLikeView
+    <com.ldt.fahimshariar.ui.widget.view.MPSearchLikeView
         android:id="@+id/search_view"
         android:layout_width="0dp"
         android:layout_height="45dp"
@@ -99,7 +99,7 @@
         app:tabTextColor="#88F5F5F5"
         android:overScrollMode="never"/>
 
-    <com.ldt.musicr.ui.widget.viewpager.SmoothScrollerViewPager
+    <com.ldt.fahimshariar.ui.widget.viewpager.SmoothScrollerViewPager
         android:id="@+id/view_pager"
         android:layout_width="0dp"
         android:layout_height="0dp"

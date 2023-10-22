@@ -53,7 +53,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/status_bar" />
 
-            <com.ldt.musicr.ui.widget.rangeseekbar.RangeSeekBar
+            <com.ldt.fahimshariar.ui.widget.rangeseekbar.RangeSeekBar
                 android:id="@+id/in_app_volume_seek_bar"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -95,7 +95,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/in_app_volume_seek_bar" />
 
-            <com.ldt.musicr.ui.widget.rangeseekbar.RangeSeekBar
+            <com.ldt.fahimshariar.ui.widget.rangeseekbar.RangeSeekBar
                 android:id="@+id/left_right_balance_seek_bar"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
@@ -121,6 +121,7 @@
             <TextView
                 android:id="@+id/specific_playlist"
                 android:layout_width="0dp"
+                android:visibility="gone"
                 android:layout_height="35dp"
                 android:layout_marginStart="24dp"
                 android:layout_marginTop="16dp"
@@ -139,6 +140,7 @@
             <TextView
                 android:id="@+id/specific_playlist_note"
                 android:layout_width="0dp"
+                android:visibility="gone"
                 android:layout_height="wrap_content"
                 android:gravity="center_vertical"
                 android:paddingStart="4dp"
@@ -155,6 +157,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="30dp"
+                android:visibility="visible"
                 android:layout_marginTop="12dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginBottom="12dp"
@@ -267,7 +270,7 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:gravity="center"
-                android:text="@string/viet_nam"
+                android:text="বাংলা"
                 android:textColor="@color/FlatWhite"
                 android:textSize="14sp"
                 android:textStyle="bold"
@@ -294,6 +297,7 @@
                 android:textSize="19sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
+                android:visibility="gone"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/hide_switch" />
 

@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"/>
     </FrameLayout>
-    <com.ldt.musicr.ui.widget.view.MPSearchView
+    <com.ldt.fahimshariar.ui.widget.view.MPSearchView
         android:id="@+id/search_view"
         android:layout_width="0dp"
         android:layout_height="45dp"

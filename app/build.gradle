@@ -7,7 +7,7 @@ apply plugin: 'org.jetbrains.kotlin.plugin.parcelize'
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "com.ldt.musicr"
+        applicationId "com.ldt.fahimshariar"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 4
