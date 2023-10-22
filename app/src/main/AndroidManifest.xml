@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <application
-        android:name="com.ldt.fahimshariar.App"
+        android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.App"
         android:allowBackup="true"
         android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
@@ -23,7 +23,7 @@
         tools:ignore="UnusedAttribute">
         <activity
             android:exported="true"
-            android:name="com.ldt.fahimshariar.ui.AppActivity"
+            android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.ui.AppActivity"
             android:theme="@style/SplashThemeV2"
             android:screenOrientation="portrait"
             android:configChanges="keyboardHidden|orientation|screenSize"
@@ -95,7 +95,7 @@
             </intent-filter>
         </activity>
         <service
-            android:name="com.ldt.fahimshariar.service.MusicService"
+            android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.service.MusicService"
             android:enabled="true"/>
         <meta-data
             android:name="android.max_aspect"
@@ -110,19 +110,19 @@
                 android:name="android.support.FILE_PROVIDER_PATHS"
                 android:resource="@xml/provider_paths" />
         </provider>
-        <receiver android:name="com.ldt.fahimshariar.service.MediaButtonIntentReceiver" android:exported="true">
+        <receiver android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.service.MediaButtonIntentReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MEDIA_BUTTON" />
             </intent-filter>
         </receiver>
-        <receiver android:name="com.ldt.fahimshariar.appwidgets.BootReceiver" android:exported="true">
+        <receiver android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.appwidgets.BootReceiver" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.ldt.fahimshariar.appwidgets.AppWidgetBig"
+            android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.appwidgets.AppWidgetBig"
             android:exported="false"
             android:label="@string/app_widget_big_name">
             <intent-filter>
@@ -134,7 +134,7 @@
                 android:resource="@xml/app_widget_big_info" />
         </receiver>
         <receiver
-            android:name="com.ldt.fahimshariar.appwidgets.AppWidgetClassic"
+            android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.appwidgets.AppWidgetClassic"
             android:exported="false"
             android:label="@string/app_widget_classic_name">
             <intent-filter>
@@ -146,7 +146,7 @@
                 android:resource="@xml/app_widget_classic_info" />
         </receiver>
         <receiver
-            android:name="com.ldt.fahimshariar.appwidgets.AppWidgetSmall"
+            android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.appwidgets.AppWidgetSmall"
             android:exported="false"
             android:label="@string/app_widget_small_name">
             <intent-filter>
@@ -158,7 +158,7 @@
                 android:resource="@xml/app_widget_small_info" />
         </receiver>
         <receiver
-            android:name="com.ldt.fahimshariar.appwidgets.AppWidgetCard"
+            android:name="com.ldt.fahimshariar.com.fahimshariar.fahimshariar.appwidgets.AppWidgetCard"
             android:exported="false"
             android:label="@string/app_widget_card_name">
             <intent-filter>

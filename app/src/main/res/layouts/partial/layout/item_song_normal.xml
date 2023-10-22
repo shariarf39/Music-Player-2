@@ -72,7 +72,7 @@
         app:layout_constraintTop_toBottomOf="@id/title"
         app:layout_constraintStart_toStartOf="@id/title"
         app:layout_constraintEnd_toEndOf="@id/title"/>
-    <com.ldt.fahimshariar.ui.widget.CircularPlayPauseProgressBar
+    <com.fahimshariar.fahimshariar.ui.widget.CircularPlayPauseProgressBar
         android:id="@+id/preview_button"
         android:layout_width="45dp"
         android:layout_height="45dp"

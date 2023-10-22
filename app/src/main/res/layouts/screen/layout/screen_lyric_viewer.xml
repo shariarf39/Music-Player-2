@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.floating.LyricFragment">
+    tools:context="com.fahimshariar.fahimshariar.ui.floating.LyricFragment">
     <View
         android:id="@+id/align_view"
         android:layout_width="match_parent"

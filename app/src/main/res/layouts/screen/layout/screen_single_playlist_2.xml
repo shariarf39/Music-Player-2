@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.ldt.fahimshariar.ui.widget.view.MPRecyclerView
+            <com.fahimshariar.fahimshariar.ui.widget.view.MPRecyclerView
                 android:id="@+id/recycler_view"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"

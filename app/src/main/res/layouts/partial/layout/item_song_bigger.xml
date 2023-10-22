@@ -86,7 +86,7 @@
         android:maxLines="1"
         android:textSize="13sp"
         />
-    <com.ldt.fahimshariar.ui.widget.CircularPlayPauseProgressBar
+    <com.fahimshariar.fahimshariar.ui.widget.CircularPlayPauseProgressBar
         android:id="@+id/preview_button"
         android:layout_width="48dp"
         android:layout_height="48dp"
